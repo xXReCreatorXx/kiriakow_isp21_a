@@ -1,2 +1,2 @@
-Git
+Git commit
 Hello world
