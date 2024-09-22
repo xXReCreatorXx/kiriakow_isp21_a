@@ -1,2 +1,0 @@
-Git commit
-Hello world
