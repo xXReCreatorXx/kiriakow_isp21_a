@@ -5,7 +5,7 @@
         <meta name="author" content="Kiriakow Alekcander">
         <meta name="description" content="Just PHP and HTML">
         <meta name="keywords" content="PHP">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <title>Лабораторная работа №3</title>
     </head>
 
