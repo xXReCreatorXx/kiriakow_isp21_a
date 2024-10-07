@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +42,7 @@ if ($_POST["range"] != "") {
 
                         <p>Найти длину окружности L и площадь круга S заданного радиуса R:<BR>L = 2·π·R<BR>S = π·R2<BR>В качестве значения π использовать 3.14</p>
 
-                        <form action="one.php" method="post">
+                        <form action="page/lab3/one.php" method="post">
                             <input class="script_input" type="number" name="range" placeholder="Введите значение радиуса">
 
                             <button class="script_button" type="submit">Выполнить</button>
@@ -75,7 +76,7 @@ for ($i = 0; $i < strlen($a); $i++) {
 
                          <p>Дано двузначное число.<BR>Найти сумму и произведение его цифр.</p>
 
-                        <form action="two.php" method="post">
+                        <form action="page/lab3/two.php" method="post">
                             <input class="script_input" type="number" name="array" placeholder="Введите значение переменной">
 
                             <button class="script_button" type="submit">Выполнить</button>
