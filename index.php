@@ -14,8 +14,8 @@
         <div class="conteiner">
             <div class="header">
                 <div class="header_menu">
-                    <button class="header_menu_button button_activ">Лабораторная работа №3</button>
-                    <button class="header_menu_button">Лабораторная работа №4</button>
+                    <div class="header_menu_button button_activ"><a class="link link_activ">Лабораторная работа №3</a></div>
+                    <div class="header_menu_button"><a class="link" href="page/lab4/index.php">Лабораторная работа №4</a></div>
                 </div>
             </div>
 
@@ -24,14 +24,10 @@
                 <div class="content_block">
                     <pre class="content_block_script">
                         <code class="script">
-if ($_POST["range"] != "") {
-    $L = 2 * 3.14 * $_POST["range"];
-    $S = 3.14 * pow($_POST["range"], 2);
-    echo "Длинна окружности =  $L <BR>";
-    echo "Площадь круга =  $S <BR>";
-} else {
-    echo "Переменная не была задана";
-}
+$L = 2 * 3.14 * $_POST["range"];
+$S = 3.14 * pow($_POST["range"], 2);
+echo "Длинна окружности =  $L";
+echo "Площадь круга =  $S";
                         </code>
                     </pre>
 
@@ -53,19 +49,13 @@ if ($_POST["range"] != "") {
                 <div class="content_block">
                     <pre class="content_block_script">
                         <code class="script">
-if ($_POST["array"] != "") {
-$a = (string)$_POST["array"];
-$s = 0;
-$p = 1;
-for ($i = 0; $i < strlen($a); $i++) {
-    $s = $s + $a[$i];
-    $p = $p * $a[$i];
-}
-    echo "Сумма цифр = $s <BR>";
-    echo "Произведение цифр =  $p <BR>";
-} else {
-    echo "Переменная не была задана";
-}
+$a = $_POST["array"];
+$one = ($a/10)%10;
+$two = $a % 10;
+$sum = $one + $two;
+$pro = $one * $two;
+echo "Сумма цифр = $sum";
+echo "Произведение цифр =  $pro";
                         </code>
                     </pre>
 
