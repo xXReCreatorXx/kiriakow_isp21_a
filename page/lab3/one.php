@@ -12,8 +12,8 @@
     <BODY>
         <div class="header">
             <div class="header_menu">
-                <button class="header_menu_button button_activ">Лабораторная работа №3</button>
-                <button class="header_menu_button">Лабораторная работа №4</button>
+                <div class="header_menu_button button_activ"><a class="link link_activ" href="../../index.php">Лабораторная работа №3</a></div>
+                <div class="header_menu_button"><a class="link" href="../lab4/index.php">Лабораторная работа №4</a></div>
             </div>
         </div>
 
