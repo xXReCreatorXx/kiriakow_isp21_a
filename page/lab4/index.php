@@ -7,7 +7,7 @@
         <meta name="description" content="Just PHP and HTML">
         <meta name="keywords" content="PHP">
         <link rel="stylesheet" href="../../style.css">
-        <title>Лабораторная работа №3</title>
+        <title>Лабораторная работа №4</title>
     </head>
 
     <body>
@@ -15,7 +15,12 @@
             <div class="header">
                 <div class="header_menu">
                     <div class="header_menu_button"><a class="link" href="../../index.php">Лабораторная работа №3</a></div>
+
                     <div class="header_menu_button button_activ"><a class="link link_activ">Лабораторная работа №4</a></div>
+
+                    <div class="header_menu_button"><a class="link" href="../lab5/index.php">Лабораторная работа №5</a></div>
+
+                    <div class="header_menu_button"><a class="link" href="../lab6/index.php">Лабораторная работа №6</a></div>
                 </div>
             </div>
 
