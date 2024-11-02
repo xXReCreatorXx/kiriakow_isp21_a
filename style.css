@@ -107,6 +107,10 @@ p {
             justify-content: center;
         }
 
+        .overflow {
+            height: auto;
+        }
+
         .row{
             width: 3px;
             height: 350px;
@@ -169,6 +173,7 @@ p {
 
     .header {
         height: 50px;
+        overflow: scroll;
     }
 
     .header_menu_button {
