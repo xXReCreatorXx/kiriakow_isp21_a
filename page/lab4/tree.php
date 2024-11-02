@@ -6,21 +6,26 @@
         <meta name="discription" content="Just PHP and HTML">
         <meta name="keywords" content="PHPinfo">
         <link rel="stylesheet" href="../lab3/one.css">
-        <TITLE>PHPInfo</TITLE>
+        <TITLE>Задание №3</TITLE>
     </HEAD>
     
     <BODY>
         <div class="header">
             <div class="header_menu">
                 <div class="header_menu_button"><a class="link" href="../../index.php">Лабораторная работа №3</a></div>
+
                 <div class="header_menu_button button_activ"><a class="link link_activ" href="index.php">Лабораторная работа №4</a></div>
+
+                <div class="header_menu_button"><a class="link" href="../lab5/index.php">Лабораторная работа №5</a></div>
+
+                <div class="header_menu_button"><a class="link" href="../lab6/index.php">Лабораторная работа №6</a></div>
             </div>
         </div>
 
         <div class="content">
 
             <div class="content_block">
-                <H2 class="title">Задание №1</H2>
+                <H2 class="title">Задание №3</H2>
                     
                 <?php
                 $x = $_POST["X"];
