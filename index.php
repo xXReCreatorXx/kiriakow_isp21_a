@@ -23,6 +23,8 @@
                     <div class="header_menu_button"><a class="link" href="page/lab6/index.php">Лабораторная работа №6</a></div>
 
                     <div class="header_menu_button"><a class="link" href="page/lab7/index.php">Лабораторная работа №7</a></div>
+
+                    <div class="header_menu_button"><a class="link" href="page/questions/questions.php">Ques</a></div>
                 </div>
             </div>
 
