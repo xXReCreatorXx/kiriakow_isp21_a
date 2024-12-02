@@ -46,10 +46,7 @@ p {
 
     .header_menu {
         display: flex;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        justify-content: center;
     }
 
         .header_menu_button {
@@ -173,7 +170,13 @@ p {
 
     .header {
         height: 50px;
-        overflow: scroll;
+        overflow: hidden;
+    }
+
+    .header_menu {
+        overflow: hidden;
+        overflow-x: scroll;
+        justify-content: start;
     }
 
     .header_menu_button {
