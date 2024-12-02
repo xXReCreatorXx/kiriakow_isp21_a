@@ -24,11 +24,8 @@ button {
 }
 
     .header_menu {
-        position: absolute;
         display: flex;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        justify-content: center;
     }
 
         .header_menu_button {
@@ -93,6 +90,13 @@ button {
 
     .header {
         height: 50px;
+        overflow: hidden;
+    }
+
+    .header_menu {
+        overflow: hidden;
+        overflow-x: scroll;
+        justify-content: start;
     }
 
     .header_menu_button {
