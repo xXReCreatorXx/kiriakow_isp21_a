@@ -19,6 +19,8 @@
                 <div class="header_menu_button button_activ"><a class="link link_activ" href="index.php">Лабораторная работа №5</a></div>
 
                 <div class="header_menu_button"><a class="link" href="../lab6/index.php">Лабораторная работа №6</a></div>
+
+                <div class="header_menu_button"><a class="link" href="../lab7/index.php">Лабораторная работа №7</a></div>
             </div>
         </div>
 
